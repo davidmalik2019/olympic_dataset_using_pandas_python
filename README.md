@@ -23,7 +23,7 @@ import numpy as np
 df = pd.read_csv('./data/cleaned_row.csv')
 df.shape
 new = df.dropna(how='all').fillna('N/A')
-new.to_csv('latest_row.csv', index=False , na_rep='N/A')
+new.to_csv('./data/latest_row.csv', index=False , na_rep='N/A')
 ```
 (3) The lastest excel cleaned dataset is filtered by selecting the country (CUBA) where the althlete are giving birth to, to know how many althlete is from CUBA that is above 190 cm in height and the generted excel file is saved for analysis. 90 althletes from CUBA met the criteria. 
 ```python
