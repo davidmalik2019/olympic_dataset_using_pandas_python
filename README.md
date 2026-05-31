@@ -13,7 +13,7 @@ import numpy as np
 df = pd.read_csv('./data/bios.csv')
 new=df[df['height_cm'] > 190]
 print(new)
-new.to_csv('cleaned_row.csv', index=False)
+new.to_csv('./data/cleaned_row.csv', index=False)
 ```
 (2) Cleaned the sorted excel file data by selecting the empty row and filling it with N/A and saved the new file as latest_row.csv
 ```python
