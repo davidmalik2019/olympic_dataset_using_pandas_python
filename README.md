@@ -5,7 +5,7 @@ dataset: https://github.com/KeithGalli/complete-pandas-tutorial/tree/master/data
 Data cleaning and Visualization using pandas in python
 
 The dataset contain some rows that were empty, so i had to           
-(1) Sorted the main dataset by selecting athlete that their hight is above 190cm (Height is advantage in some olympic games) saved the new file as cleaned_row.csv.  
+(1) Sort the main dataset by selecting athlete that their hight is above 190cm (Height is advantage in some olympic games) saved the new file as cleaned_row.csv.  
 ```python
 import pandas as pd
 import matplotlib.pyplot as plt
